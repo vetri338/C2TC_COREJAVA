@@ -1,0 +1,28 @@
+package com.tns.ifet.dayone;
+
+public class PrimitiveDataTypesDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte byteMax=127;
+		byte byteMin=-128;
+		System.out.println("Min range of byte is"+byteMin+"Max rnge of byte is"+byteMax);
+		short shortMax=32767;
+		short shortMin=-32678;
+		System.out.println("Minshort range of byte is"+shortMin+"Maxshort range is byte"+shortMax);
+		int maxInt=21473647;
+		int minInt=-21473648;
+		System.out.println("Minint range of byte is"+minInt+"Maxint range of byte is"+maxInt);
+		long maxLong=9223372036854775807L;
+		long minLong=-9223372036854775807L;
+		System.out.println("Minlong range of byte is"+minLong+"Maxlong range of byte is"+maxLong);
+		float f=3234.14124327845f;
+		double d=3456.14124512345678902345678914f;
+		System.out.println("float value is "+f+"double value is"+d);
+		boolean flag=false;
+		System.out.println("boolean"+flag);
+		
+
+	}
+
+}
